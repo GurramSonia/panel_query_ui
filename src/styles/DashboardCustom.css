@@ -1,0 +1,168 @@
+/* Add to src/styles/DashboardCustom.css or similar */
+#root, .app {
+  min-height: 100vh;
+  width: 100vw;
+}
+.dashboard-sidebar {
+  background: linear-gradient(135deg, #f8fafc 80%, #e3e3e3 100%);
+  border-right: 2px solid #e3e3e3;
+  min-height: 100vh;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.03);
+  padding-top: 2rem;
+}
+.dashboard-sidebar .btn {
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.dashboard-sidebar .btn.active,
+.dashboard-sidebar .btn:focus {
+  background: #0d6efd;
+  color: #fff;
+}
+.dashboard-sidebar .btn-outline-secondary {
+  background: #f1f3f6;
+}
+.dashboard-sidebar .btn-sm {
+  font-size: 0.95rem;
+}
+.dashboard-sidebar .submenu {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.dashboard-main {
+  background: #f7f9fb;
+  min-height: 100vh;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+
+
+
+
+.dashboard-bg {
+  background-color: #f8fafc;
+}
+
+.dashboard-flash-message {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+  z-index: 1030;
+  min-width: 300px;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+  min-height: 80px;
+  background: #fff;
+  border-bottom: 2px solid #e5e7eb;
+  position: relative;
+  z-index: 10;
+}
+
+.dashboard-header-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-main-heading {
+  font-weight: bold;
+  color: #007bff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.4rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  cursor: pointer;
+  user-select: none;
+}
+
+.dashboard-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e5e7eb;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.dashboard-profile-menu {
+  min-width: 260px;
+  z-index: 10;
+  border-radius: 16px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  margin-top: 0.5rem;
+}
+
+.dashboard-profile-pic-lg {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e5e7eb;
+  transition: box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.dashboard-profile-camera {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #007bff;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.dashboard-sidebar {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.03);
+  width: 220px;
+  min-width: 220px;
+  max-width: 220px;
+  border-right: 1px solid #e5e7eb;
+  padding: 32px 16px 16px 16px;
+  height: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.dashboard-main-content {
+  flex-grow: 1;
+  padding: 2rem;
+  background: #f8fafc;
+  min-height: 0;
+  overflow-y: auto;
+  border-radius: 0 16px 16px 0;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+

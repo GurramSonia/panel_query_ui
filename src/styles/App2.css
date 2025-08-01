@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f8fafc; /* match your dashboard background */
+}
+
+#root, .App {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f8fafc;
+  padding: 0;
+  margin: 0;
+}
