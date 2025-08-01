@@ -19,7 +19,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [python, javascript]  # change based on your project
+        language: [React, javascript]  # change based on your project
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
